@@ -1,0 +1,36 @@
+header{
+    background-image: url(/img/background.png);
+    background-repeat: no-repeat;
+    background-size: 320px;
+    height: 552px;
+    color: $color-for-text;
+}
+
+header ul li{
+    list-style:none;
+}
+
+.first__p-header{
+    font-size: 18px;
+    font-family: "Montserrat", system-ui;
+    font-weight: 700;
+margin-left: 55px;
+    line-height: 22px;
+}
+
+.first__p-header,  .second__p-header,  .third__p-header{
+    text-align: center;
+}
+
+.first__p-header, .third__p-header{
+    font-size: 18px;
+    font-family: "Montserrat", system-ui;
+}
+
+.second__p-header{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Montserrat", system-ui ;
+    line-height: 37px;
+    margin-top: 22px;
+}
