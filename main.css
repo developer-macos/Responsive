@@ -14,25 +14,180 @@ header ul li {
   font-size: 18px;
   font-family: "Montserrat", system-ui;
   font-weight: 700;
-  margin-left: 55px;
+  margin-left: -20px;
   line-height: 22px;
-}
-
-.first__p-header, .second__p-header, .third__p-header {
   text-align: center;
 }
 
-.first__p-header, .third__p-header {
+.first__p-header,
+.second__p-header,
+.third__p-header {
+  text-align: center;
+}
+
+.first__p-header,
+.third__p-header {
   font-size: 18px;
   font-family: "Montserrat", system-ui;
 }
 
-.second__p-header {
-  font-size: 30px;
+.main__first-section-p {
+  color: #333;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 22.004px;
+  font-style: normal;
   font-weight: 700;
-  font-family: "Montserrat", system-ui;
-  line-height: 37px;
-  margin-top: 22px;
+  line-height: normal;
+  width: 288.006px;
+}
+
+.second__p-header {
+  color: #fff;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30.041px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  width: 306.026px;
+  margin-left: -40px;
+}
+
+.third__p-header {
+  color: #fff;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 18.025px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-left: -20px;
+}
+
+.button-log-in,
+.button-sign-up {
+  font-family: "Monteserrat", system-ui;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: white;
+  border: none;
+  background: none;
+}
+
+.button-log-in {
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 13.986px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.button-li-sign-up {
+  width: 92px;
+  height: 39px;
+  flex-shrink: 0;
+  fill: rgba(26, 25, 21, 0);
+  stroke-width: 2px;
+  stroke: #fff;
+}
+
+.button-sign-up {
+  width: 83px;
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 13.986px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.button-find-your-holiday {
+  width: 282px;
+  height: 43px;
+  flex-shrink: 0;
+  background-color: #ff4e50;
+  text-align: center;
+  margin: 0 auto;
+  margin-left: -28px;
+  color: #fff;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13.999px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: none;
+  border-radius: 25px;
+}
+
+.svg {
+  margin-left: -30px;
+}
+
+.tv-svg {
+  margin-left: -32px;
+  margin-bottom: 13px;
+}
+
+.section__inside-section {
+  text-align: center;
+}
+
+.name__person-bradley {
+  width: 136.024px;
+  color: #333;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14.011px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 81px;
+}
+
+.info__person-bradley {
+  width: 224.024px;
+  color: #666;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 14.011px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-left: 37px;
+  margin-top: 13px;
+}
+
+.name__person-lucas {
+  width: 125.024px;
+  color: #333;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14.011px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 81px;
+}
+
+.info__person-lucas {
+  width: 247.024px;
+  color: #666;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 14.011px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-left: 37px;
+  margin-top: 13px;
 }
 
 @media screen and (max-width: 320px) {
